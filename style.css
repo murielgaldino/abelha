@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: "Oswald", sans-serif;
+    line-height: 1.6;
+    background-color: #000000;
+    padding: 20px;
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+nav  a {
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fffc39;
+    border-radius: 5px;
+}
+
+section h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+.coluna li {
+    font-size: 25px;
+}
+#sobre h2{
+    font-size: 30px;
+}
+#sobre p{
+    font-size: 25px;
+}
+#abelhas h2{
+    font-size: 25px;
+}
+#abelhas p{
+    font-size: 25px;
+}
+#telhados h2{
+    font-size: 25px;
+}
+#telhados p{
+    font-size: 25px;
+}
+#criacao h2{
+    font-size: 25px;
+}
+#criacao p{
+    font-size: 25px;
+}
+#impacto h2{
+    font-size: 25px;
+}
+#impacto p{
+    font-size: 25px;
+}
+
+.abelha {
+    width: 20%;
+    height: 200px;
+    margin: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+}
+
+.abelha:hover {
+    transform: scale(1.05);
+  
+}
+
+.grama {
+    height: 200px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 25px;
+}
+.grama:hover {
+    transform: scale(1.05);
+  
+}  
+
+.jatai {
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+}
